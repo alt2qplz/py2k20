@@ -11,4 +11,4 @@
 n = int(input())
 m = []
 
-
+for 
