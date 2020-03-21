@@ -22,4 +22,3 @@ def get_ticket():
 lucky_ticket = get_ticket()
 
 print(lucky_ticket)
-

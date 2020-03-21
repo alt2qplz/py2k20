@@ -25,7 +25,7 @@ my_ticket = get_ticket()
 
 i = 1
 
-while my_ticket != '4D52':
+while my_ticket != '9A67':
 	my_ticket = get_ticket()
 	i += 1
 
