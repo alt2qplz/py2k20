@@ -1,10 +1,6 @@
 import string
 from random import choice
 
-
-
-
-
 def get_pass(list, sim=3):
 	'''возвращает пароль длинной sim из списка символов list'''
 	password =''
