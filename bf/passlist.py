@@ -1,5 +1,5 @@
 '''
-Генерирует список символов состящий из всех цифр, буква латинского алвфавита
+Генерирует список символов состящий из всех цифр, букв латинского алвфавита
 в обоих регистрах и символа '_'
 
 ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 
@@ -17,8 +17,8 @@ def password_list():
 	for i, elem in enumerate(my_pass):
 	    my_pass[i] = str(elem)
 
-	my_pass.extend(list(string.ascii_letters))
+	#my_pass.extend(list(string.ascii_letters[26:]))
 
-	my_pass.append('_')
+	#my_pass.append('_')
 
 	return(my_pass)

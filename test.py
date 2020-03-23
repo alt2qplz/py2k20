@@ -1,9 +1,5 @@
-import json
+from random import randint
 
+numbers = [i for i in range(0, 10)]
 
-filename = 'numbers.json'
-
-with open(filename) as f:
-    numbers = json.load(f)
-
-print(numbers)
+print(numbers.pop(randint(0, (len(numbers)-1))))
